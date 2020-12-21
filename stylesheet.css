@@ -1,0 +1,61 @@
+@charset "utf-8";
+html{
+    font-size: 100%;
+}
+body{
+    color: #333333;
+    font-size: 14px;
+    line-height: 1.6;
+    font-family: "Hiragino Kaku Gothic Pro", sans-serif;;
+    letter-spacing: 1.5px;
+}
+
+header{
+    height: 55px;
+    width: 1165px;
+    margin: 0 auto;
+}
+.header-contner{
+    display: flex;
+    align-items: flex-end;
+    margin-top: 20px;
+}
+.header-contner > img{
+    width: 125px;
+    height: 42px;
+    margin-right: 12px;
+}
+.header-contner > p{
+    margin-right: 440px;
+    font-weight: bold;
+}
+.header-info{
+    width: 315px;
+    height: 45px;
+    background-color: #da6b64;
+    border-radius: 25px;
+    color: #fff;
+}
+.header-info p{
+    text-align: center;
+    margin-top: 13px;
+}
+.main-1{
+    background: url(../img/picture/main.jpg) no-repeat center center / cover;
+    height: 500px;
+    text-align: center;
+}
+.main-1 h2{
+    font-size: 28px;
+    padding-top: 95px;
+    line-height: 2.0;
+}
+.main-1 img{
+    width: 295px;
+}
+.main-1 p{
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 30px;
+    line-height: 1;
+}
